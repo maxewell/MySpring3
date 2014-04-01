@@ -1,0 +1,6 @@
+.classpath
+*.class
+.mymetadata
+.project
+.settings/.jsdtscope
+.settings/
