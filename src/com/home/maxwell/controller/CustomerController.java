@@ -52,6 +52,7 @@ public class CustomerController {
 		return new ModelAndView("CustomerPage", "msg","Update() method");	
 	}
 	
+	//
 	@RequestMapping(value="/customer/ListCustomer.so", method=RequestMethod.GET )
 	public ModelAndView onListCustomer(HttpServletRequest request,
 		HttpServletResponse response, HttpSession session, Person inperson) throws Exception {
